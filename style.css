@@ -1,0 +1,290 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+
+body {
+  margin: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw auto;
+    grid-template-rows: 5vw 40vw 15vw 15vw 15vw 10vw auto;
+}
+    
+.typotheque { 
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  
+  background-color: #000000;
+  background-image: url(images/typothe.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+    border: 4px solid white;
+
+}
+
+.menuicoon {
+  background-image: url(images/menu.png);
+  background-repeat: no-repeat;
+  background-position: left;
+    border: 4px solid white;
+    border-bottom: 4px white;
+}
+
+
+.zoekicoon {
+  background-image: url(images/zoekicoon.png);
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+  
+  background-position: right;
+  background-repeat: no-repeat;
+
+  border-left:50px;
+
+}
+
+.zedafbeelding {
+  background-image: url(images/zedafb.png);
+  background-size: contain;
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+
+.alle {
+  background-color: #fd6d24;
+  background-image: url(images/afb0.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 10px;
+    
+    border-top: 10px;
+    border-left: 0px;
+    border-right: 2px;
+    border-bottom: 0cap;
+
+  align-items: center;
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+}
+
+.wereld {
+  background-color: #000000 ;
+  background-image: url(images/afb1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;  
+    
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+  
+   
+}
+
+.super {
+  background-color: #b7ecfd ;
+    background-image: url(images/afb4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+  
+   
+}
+
+.variabele {
+  background-color: #febccf;
+  background-image: url(images/afb2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 20px;
+}
+
+.leesbaar {
+  background-color: #bda178;
+  background-image: url(images/afb5.png);
+   background-position: center;
+    background-repeat: no-repeat;
+  
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+  
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+
+}
+
+.slimme {
+  background-color: #24b4db;
+  background-image: url(images/afb3.png);
+  background-repeat: no-repeat;
+  
+  
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+  
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 10px;
+    margin-left: 3px;
+    border-radius: 20px;
+}
+
+.optische {
+  background-color: #fd6d24;
+  background-image: url(images/afb6.png);
+
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+
+  justify-content: center;
+    border-radius: 20px; 
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 20px;
+}
+
+.blog{
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+  background-image: url(images/blog.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.foto1 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  background-image: url(images/blog1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  border-right:10px solid white;
+}
+
+.tekst1 {
+    grid-column: 1 / 2;
+    grid-row: 7 / auto;
+
+    font-family: sans-serif;
+    
+    border-right:10px solid white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dikgedrukt{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kleingedrukt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: lighter;
+  color: gray;
+}
+
+.foto2 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+  background-image: url(images/blog2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-right:10px solid white;
+}
+
+.tekst2 {
+    grid-column: 2 / 3;
+    grid-row: 7 / auto;
+    border-right:10px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foto3 {
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+  background-image: url(images/blog3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-right:10px solid white;
+}
+
+.tekst3 {
+    grid-column: 3 / 4;
+    grid-row: 7 / auto;
+    border-right:10px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foto4 {
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+  background-image: url(images/blog4.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+.tekst4 {
+    grid-column: 4 / 5;
+    grid-row: 7 / auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
